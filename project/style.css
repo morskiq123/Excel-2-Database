@@ -1,0 +1,99 @@
+html,body{
+  padding:0;
+  margin:0;
+}
+
+.clearfix{
+  clear:both;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1160px;
+        padding:0;
+    }
+
+    .container-fluid{
+      padding:0;
+      margin:0;
+    }
+}
+
+.header{
+  margin-top:1%;
+}
+
+.logo{
+  width:7%;
+  height:auto;
+  float:left;
+}
+
+.title{
+  padding-top:2%;
+  margin-bottom:5%;
+}
+
+.sheetCount{
+  font-family: 'Bree Serif', serif;
+  font-size:20px;
+  padding-left:40%;
+}
+
+.tableTitle{
+  font-family: 'Bree Serif', serif;
+  font-size:30px;
+}
+
+.id, .name, .age{
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  font-size:20px;
+  text-align: center;
+  padding:0;
+  margin:0;
+  background-color: #CC0011;
+}
+
+.id{
+  border-top:2px solid black;
+  border-bottom: 2px solid black;
+  border-right:1px solid black;
+}
+
+.name{
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  border-right:1px solid black;
+  border-left: 1px solid black;
+}
+
+.age{
+  border-top:2px solid black;
+  border-bottom: 2px solid black;
+  border-left:1px solid black;
+}
+
+.idExcel, .nameExcel, .ageExcel{
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
+  text-align: center;
+  padding:0;
+  margin:0;
+  float:left;
+  border:1px solid black;
+  background-color:#61E984;
+}
+
+.btn{
+  margin-top:0.5%;
+  margin:0.3%;
+  float:left;
+}
+
+.btnPage{
+  float:left;
+  height:auto;
+  width:auto;
+  margin-left:0.3%;
+}
